@@ -24,7 +24,7 @@ class LinkUrlFunctionTest extends TestCase
         /** Arrange */
 
         /** Assume */
-        $expected = "<a href='http://localhost/dogs/1' class='button'>Show Dog</a>";
+        $expected = "<a href='http://localhost/dogs/1' class=\"button\">Show Dog</a>";
 
         /** Act */
         $actual = link_url('dogs/1', 'Show Dog', ['class' => 'button']);
